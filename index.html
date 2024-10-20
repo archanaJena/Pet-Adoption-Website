@@ -26,7 +26,7 @@
       <fieldset>
         <legend>Pet Preference</legend>
         <label for="menu">Type of Pet:</label>
-        <select name="menu" id="menu">
+        <select name="menu" id="menu" required required >
           <option value="1">Select one</option>
           <option value="2">Dog</option>
           <option value="3">Cat</option>
@@ -37,19 +37,19 @@
         <br />
         <label for="">Age Range:</label>
         <br />
-        <input type="radio" name="age" id="age" />
+        <input type="radio" name="age" id="age" required />
         <label for="age">Young</label>
         <br />
-        <input type="radio" name="age" id="age1" />
+        <input type="radio" name="age" id="age1" required/>
         <label for="age1">Adult</label>
         <br />
-        <input type="radio" name="age" id="age2" />
+        <input type="radio" name="age" id="age2" required/>
         <label for="age2">Senior</label>
         <br />
         <br />
         <label for="description">Why do you want to adopt a pet?</label>
         <br />
-        <textarea name="desc" id="description" rows="4" cols="50"></textarea>
+        <textarea name="desc" id="description" rows="4" cols="50" required></textarea>
       </fieldset>
       <br />
       <button type="submit">Submit Application</button>
